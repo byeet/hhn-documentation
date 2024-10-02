@@ -1,0 +1,36 @@
+In settings navigate to the networks section
+
+Create a new virtual network
+
+Give your network (Vlan) a name
+
+Assign the same Vlan number used on your networking equipment
+
+After you have added all your Vlans in Unifi navigate to Wifi 
+
+If you've already created the Wifi networks you want to assign Vlans to then skip to step X
+
+Create a Basic Wifi Network:
+*Select "Create Wifi network"
+Name your Wifi network; this is the name your Wifi clients will see
+Fill in the Password you would like to protect your Wifi network with (or set alternative authentication method)
+At the Network section choose which Vlan you would like use 
+Explore the Advanced settings section on your own pace
+Click Save
+
+Already Created Wifi Network:
+Click the Wifi network you would like to change the Vlan settings of
+On the Network section choose which Vlan you would like use 
+Click Save
+ 
+Before you finish ensure this list is met:
+Your Native Vlan (Network/IP that you want your Acess Point to retrieve an IP from)
+is configured on the switchport connected to your AP
+
+All Vlans you want to use for your Wifi networks (inlcuding your Native Vlan) are trunked/tagged to the port that is connected to your AP
+
+Your Native Vlan CANNOT be used as one of the networks you use for your Wifi networks (e.g. Management Vlan cannot give your AP an IP as well as be used for a Wifi network) so ensure you are have unique Vlans for your networks and Native networ (Vlans can be reused among Wifi networks ONLY)
+
+Ensure all Vlans have Firewall pass rules to your Unifi instance
+
+Minimum ports that have to be passed through the Firewall:
