@@ -1,5 +1,49 @@
 # Changelog
 
+## 1.0.10 Changelog
+
+**New Guides**
+
+- `Setup CS:GO and CS2 separately`
+
+**Untracked**
+
+- Added `gaming` and `steam` directories
+- Added images for `Setup CS:GO and CS2 separately` guide
+
+**Modified**
+
+- Added `credits` sections to community guides
+
+## What's Changed
+
+- Create Setup-CSGO+CS2-Separately.mdx by @byeet in
+  https://github.com/famlam-ca/hhn-documentation/pull/4
+
+## New Contributors
+
+- @byeet made their first contribution in
+  https://github.com/famlam-ca/hhn-documentation/pull/4
+
+**Full Changelog**:
+[1.0.9...1.0.10](https://github.com/famlam-ca/hhn-documentation/compare/1.0.9...1.0.10)
+
+## 1.0.9 Changelog
+
+**Untracked**
+
+- Added `repo_forking.png`
+
+**Modified**
+
+- Updated packages
+- Added `<Steps>` to `STYLE_GUIDELINES`
+- Updated `styling-guide` for clarity
+- Updated `want-to-contribute` for clarity
+
+**Full Changelog**:
+[1.0.8...1.0.9](https://github.com/famlam-ca/hhn-documentation/compare/1.0.8...1.0.9)
+
 ## 1.0.8 Changelog
 
 **New Guides**
@@ -31,7 +75,7 @@
 - Spelling and formatting in `NPM` guide
 
 **Full Changelog**:
-[1.0.7...1.0.8](https://github.com/famlam-ca/hhn-documentation/compare/1.0.6...1.0.7)
+[1.0.7...1.0.8](https://github.com/famlam-ca/hhn-documentation/compare/1.0.7...1.0.8)
 
 ## 1.0.7 Changelog
 
